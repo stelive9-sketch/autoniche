@@ -1,3 +1,11 @@
+## v1.2.0-dev - [2026-04-03] "Implémentation de la logique de génération V2"
+### Why (Pourquoi)
+- **Qualité de contenu** : Se rapprocher du 100/100 en supprimant les tics d'écriture de l'IA et en autorisant les vraies marques pour une meilleure crédibilité utilisateur.
+- **Optimisation Affiliation** : Passage à des liens organiques insérés naturellement dans le texte pour améliorer le taux de clic et l'intégration visuelle.
+### How (Comment)
+- **Prompt Engineering** : Refonte totale du prompt système pour Thomas Maillard (interdiction des tics IA, obligation de marques réelles).
+- **Logique de liens** : Remplacement des marqueurs `[[AMAZON:]]` par un parsing de liens Markdown personnalisés `(AMAZON:keywords)`.
+
 ## v1.1.0 - [2026-04-02] "Scale de contenu (30 articles) et sitemap"
 ### Why (Pourquoi)
 - **Objectif SEO** : Augmenter le volume de contenu avec des mots-clés de longue traîne pour maximiser les chances de positionnement sur Google.
