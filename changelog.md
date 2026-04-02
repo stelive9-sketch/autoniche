@@ -1,3 +1,10 @@
+## v1.1.0 - [2026-04-02] "Scale de contenu (30 articles) et sitemap"
+### Why (Pourquoi)
+- **Objectif SEO** : Augmenter le volume de contenu avec des mots-clés de longue traîne pour maximiser les chances de positionnement sur Google.
+### How (Comment)
+- **Génération** : Passage de `articleCount` à 30 dans la configuration. Génération asynchrone réussie via OpenAI.
+- **Déploiement** : Mise à jour du `sitemap.xml` et push de la nouvelle base de contenu sur Git pour redéploiement Vercel.
+
 ## v1.0.0 - [2026-04-02] "Livraison du générateur AutoNiche (MVP complet)"
 ### Why (Pourquoi)
 - **Objectif Business** : Aboutissement de la consigne (produire un vecteur d'argent 100% passif sans questionnements).

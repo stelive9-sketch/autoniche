@@ -32,3 +32,11 @@
 - [x] Mettre en place les tests pré-Lighthouse (SSG ultra-rapide validé 100%).
 - [x] Pipeline prêt pour le déploiement Vercel.
 - [x] Fin du projet ("Ne pose aucune question jusqu'à la fin du projet").
+
+---
+
+## Phase 4 - Scaling & SEO `EN COURS`
+- [x] Passer la génération à 30 articles longue traîne.
+- [x] Optimiser les mots-clés initiaux.
+- [ ] Soumettre le domaine à Google Search Console.
+- [ ] Soumettre le sitemap.xml.
