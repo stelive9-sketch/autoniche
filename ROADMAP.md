@@ -1,7 +1,7 @@
 # New Project - Roadmap
 
 > Last updated: 2026-04-07
-> **VERSION ACTUELLE :** v1.2.9
+> **VERSION ACTUELLE :** v1.3.0
 
 ---
 
@@ -40,14 +40,14 @@
 
 ---
 
-## Phase 5 - Diversification du portefeuille `EN COURS`
+## Phase 5 - Diversification du portefeuille `TERMINE`
 - [x] Valider la strategie multi-sites.
 - [x] Choisir la niche du site ndeg2 : `MaisonSansCorvee`.
 - [x] Documenter la niche et preparer une config dediee non active.
-- [ ] Definir le domaine ou sous-domaine du site ndeg2.
-- [ ] Deriver une configuration de deploiement et de tracking propre au site ndeg2.
-- [ ] Generer le premier batch de contenus du site ndeg2.
-- [ ] Deployer le site ndeg2.
+- [x] Definir le domaine ou sous-domaine du site ndeg2.
+- [x] Deriver une configuration de deploiement et de tracking propre au site ndeg2.
+- [x] Generer le premier batch de contenus du site ndeg2.
+- [x] Deployer le site ndeg2.
 
 ---
 

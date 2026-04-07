@@ -1,3 +1,11 @@
+## v1.3.0 - [2026-04-07] "Nettoyage des fallback URLs et synchronisation portefeuille"
+### Why (Pourquoi)
+- **Cohesion technique** : Le generateur conservait encore des fallback URLs en `autoniche.vercel.app` alors que la marque publique du site bivouac a change.
+- **Verite projet** : La documentation portefeuille n'etait plus alignee avec la realite du site ndeg2 deja publie.
+### How (Comment)
+- **Code** : Remplacement des fallback URLs du generateur par `https://guide-bivouac-survie.vercel.app` et correction de la description par defaut du front bivouac.
+- **Documentation** : Mise a jour de la roadmap et de la bible projet pour refleter le deploiement effectif de `MaisonSansCorvee`.
+
 ## v1.2.9 - [2026-04-07] "Suppression des alias techniques du site bivouac"
 ### Why (Pourquoi)
 - **Nettoyage public** : Les alias techniques Vercel restaient visibles alors qu'ils n'apportaient rien au site public.

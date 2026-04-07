@@ -1,6 +1,6 @@
 # NEW PROJECT - PROJECT BIBLE
 
-> **VERSION :** v1.2.9 (2026-04-07)
+> **VERSION :** v1.3.0 (2026-04-07)
 > **STATUS :** Produit actif en production. Phase de portefeuille multi-sites lancee.
 > **STACK :** Next.js, React, Node.js, Markdown, OpenAI API, GA4, Vercel.
 > **DEPLOY :** Vercel.
@@ -89,6 +89,7 @@
 - Le tracking GA4 avec `G-35Y837QMT8` est actif en production.
 - Le repo `main` est de nouveau aligne avec la version locale effectivement deployee du site bivouac.
 - Le projet entre dans une logique de portefeuille multi-sites.
+- Le site ndeg2 `MaisonSansCorvee` est publie sur `https://maison-sans-corvee.vercel.app`.
 
 ---
 
@@ -97,7 +98,7 @@
 - **Site ndeg1 actif** : niche survie / bivouac / plein air.
 - **Site ndeg2 retenu** : `MaisonSansCorvee`.
 - **Positionnement site ndeg2** : equipements qui font gagner du temps a la maison.
-- **Etat site ndeg2** : blueprint et config d'exemple prepares, mais aucun domaine ni deploiement encore valides.
+- **Etat site ndeg2** : site publie avec sa propre URL de production `https://maison-sans-corvee.vercel.app`.
 
 ---
 
