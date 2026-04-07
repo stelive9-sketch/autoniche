@@ -1,3 +1,19 @@
+## v1.2.5 - [2026-04-07] "Nettoyage final Vercel du site bivouac"
+### Why (Pourquoi)
+- **Suppression du reliquat** : Le dashboard Vercel restait pollue par un ancien projet legacy et par une URL propre encore protegee.
+- **Validation publique** : Il fallait finir la bascule pour que `guide-bivouac-survie.vercel.app` soit publiquement accessible et que l'ancien projet ne brouille plus l'interface.
+### How (Comment)
+- **Vercel** : Deploiement de production revalide avec le bon auteur Git, reassignation de `guide-bivouac-survie.vercel.app` sur le dernier deploiement sain, puis suppression du projet `guide-bivouac-survie-legacy`.
+- **Protection** : Desactivation de la `ssoProtection` sur le projet propre pour rendre l'URL publique finale accessible en `200`.
+
+## v1.2.4 - [2026-04-07] "Migration Vercel propre du site bivouac"
+### Why (Pourquoi)
+- **Nettoyage definitif** : Le projet Vercel historique continuait de trainer des metadonnees d'alias `autoniche` malgre les suppressions manuelles.
+- **Marque publique** : Il fallait repartir d'un projet Vercel propre pour que le site bivouac n'herite plus du tout de cet historique.
+### How (Comment)
+- **Vercel** : Creation d'un projet propre, deploiement de production valide, puis permutation des noms de projet pour garder `guide-bivouac-survie` comme projet actif.
+- **Etat final** : L'ancien projet a ete relogue en `guide-bivouac-survie-legacy`, et `autoniche-lovat.vercel.app` repond desormais en `404`.
+
 ## v1.2.3 - [2026-04-07] "Renommage du repo GitHub du site bivouac"
 ### Why (Pourquoi)
 - **Cohesion de marque** : Le nom `autoniche` restait encore visible publiquement dans le repo GitHub rattache au projet Vercel.
