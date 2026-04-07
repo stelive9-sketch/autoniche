@@ -1,3 +1,13 @@
+## v1.2.2 - [2026-04-07] "Bascule de l'URL publique du site bivouac"
+### Why (Pourquoi)
+- **Cohesion publique** : Le projet Vercel et l'URL publique du site ndeg1 devaient enfin sortir du nom `autoniche`.
+- **SEO et marque** : Il fallait aligner l'alias public, la configuration de site et les fichiers SEO statiques sur une URL plus propre.
+### How (Comment)
+- **Vercel** : Desactivation de la protection de deploiement du projet pour rendre les nouveaux alias `.vercel.app` publiquement accessibles.
+- **Alias** : Validation de `https://guide-bivouac-survie.vercel.app` en `200` comme nouvelle URL publique.
+- **Nettoyage** : Suppression des alias Vercel publics contenant encore `autoniche`.
+- **Configuration** : Mise a jour de `generator/config.json`, de la documentation projet et des futures variables d'environnement de production vers cette nouvelle URL.
+
 ## v1.2.1 - [2026-04-07] "Renommage Vercel du site bivouac"
 ### Why (Pourquoi)
 - **Image publique** : Le nom `autoniche` ne devait plus etre visible dans le projet cloud du site ndeg1.

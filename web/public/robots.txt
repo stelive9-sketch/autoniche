@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://autoniche.vercel.app/sitemap.xml
+Sitemap: https://guide-bivouac-survie.vercel.app/sitemap.xml
+

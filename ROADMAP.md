@@ -1,7 +1,7 @@
 # New Project - Roadmap
 
 > Last updated: 2026-04-07
-> **VERSION ACTUELLE :** v1.2.1
+> **VERSION ACTUELLE :** v1.2.2
 
 ---
 
@@ -51,10 +51,10 @@
 
 ---
 
-## Phase 5 bis - Hygiene de marque du site ndeg1 `EN COURS`
+## Phase 5 bis - Hygiene de marque du site ndeg1 `TERMINE`
 - [x] Renommer le projet Vercel du site bivouac en `guide-bivouac-survie`.
-- [ ] Basculer l'URL publique vers un alias sans `autoniche`.
-  Constat actuel : les nouveaux alias `.vercel.app` du projet renomme tombent sous la protection Vercel, alors que `autoniche-lovat.vercel.app` reste la seule URL publique non protegee.
+- [x] Basculer l'URL publique vers un alias sans `autoniche`.
+  URL publique retenue : `https://guide-bivouac-survie.vercel.app`
 
 ## Phase 6 - Acquisition `A VENIR`
 - [ ] Soumettre les sites actifs a Google Search Console.
